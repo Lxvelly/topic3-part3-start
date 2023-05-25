@@ -81,6 +81,7 @@ fun Header(post: PostModel) {
                 color = Color.Gray
             )
         }
+
         MoreActionsMenu()
     }
     Title(text = post.title)
